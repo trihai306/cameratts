@@ -1,0 +1,17 @@
+# Vietnamese License Plate Recognition - TTS Camera v2.0
+# Core API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Image processing
+pillow
+numpy
+
+# Plate Detection (YOLOv9-t, specialized for license plates)
+open-image-models
+onnxruntime  # required by open-image-models
+
+# Vietnamese OCR
+paddlepaddle
+paddleocr

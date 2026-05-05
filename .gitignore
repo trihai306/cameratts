@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-electron/
+data/
+
+# Python
+lpr-service/venv/
+lpr-service/__pycache__/
+lpr-service/models/
+*.pyc
+
+# OS
+.DS_Store
+*.log
